@@ -1,0 +1,83 @@
+body {
+  background-image: url("bgl.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .logo{
+  height: 50px;
+  width: 50px;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main_h{
+  font-size: 4rem;
+  color: #0c3719;
+  font-weight: bolder;
+  
+}
+
+
+.main_h h1{
+  font-size: 3rem;
+  color: #0c3719;
+  font-weight: bolder;
+  margin-left: -8%;
+  
+}
+
+
+
+
+.col-lg-4 {
+  flex-basis: calc(100% - 20px);
+  margin: 10px;
+}
+
+.card {
+  width: 100%;
+  max-width: 350px;
+  height: 100%; 
+  margin-top: -50%;
+  /* border-radius:20%; */
+}
+
+.btn_col {
+  background-color: #1d823c;
+}
+
+.c1 img, .c2 img {
+  height: 237px;
+  /* border-radius: 20% 20% 0 0; */
+}
+
+.foot{
+  height: 70px;
+  background-color: #2d8b4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.ficon{
+  height: 40px;
+  width: 40px;
+  padding: 10px 10px;
+  margin-left: 20px;
+  justify-content: center;
+}
